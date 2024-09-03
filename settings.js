@@ -23,7 +23,7 @@ global.botname = '𝕲𝖗𝖆𝖌𝖔𝖓 𝕾𝖑𝖆𝖞𝖊𝖗 𝖛1' //nam
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = `Paiiwangsaff\n\nContact: +6285697917734'
+global.author = 🐉'paiiwangsaff\n\nContact: +6285697917734'
 
 //console view/theme
 global.themeemoji = '🐉'

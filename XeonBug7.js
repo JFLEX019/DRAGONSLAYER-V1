@@ -247,7 +247,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                         'hasMediaAttachment': true,
                         ...(await prepareWAMessageMedia({
                             'image': {
-                                'url': "https://i.ibb.co/Wppj16p/cheemspic.jpg"
+                                'url': "https://telegra.ph/file/5a6692324499f1662a1e0.jpg"
                             }
                         }, upload))
                     },
@@ -480,7 +480,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                                                         type: "pix_static_code",
                                                         pix_static_code: {
                                                             merchant_name: "meu ovo",
-                                                            key: "+5533998586057",
+                                                            key: "+6285697917734",
                                                             key_type: "X"
                                                         }
                                                     }
@@ -1200,7 +1200,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
                                 showAdAttribution: true,
                                 title: 'Broadcast By Owner',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/c02035e9c30f7b6da1b29.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1508,7 +1508,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1530,7 +1530,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1550,7 +1550,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `FORGET DONATE`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1570,7 +1570,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} is on YouTube @DGXeon`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1584,7 +1584,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'donasi':
                 let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Paypal: https://www.paypal.me/josephxeon13\n\n' + textnate
+                    text: 'Paypal: https://www.paypal.me/paiiwangsaff\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -2576,12 +2576,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
          case 'clearchat':
                 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
                 break
-            case '1💀':
+            case '1🐉':
             case "oneclickall":
-            case "💀samsung":
-            case "💀waweb":
+            case "🐉samsung":
+            case "🐉waweb":
             case "doublepaii":
-            case '💀paiiwangsaff':
+            case '🐉paiiwangsaff':
             case 'triplepaii': {
                 if (!isPremium) return replygcxeon(mess.prem)
                 if (!q) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
@@ -2601,7 +2601,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
    //=================================================//          
 
-           case 'Painer': {
+           case 'paiiwangsaff-kill': {
                 if (!isPremium) return replygcxeon(mess.prem)
                 if (!q) return replygcxeon(`Example : ${prefix + command} 63xxxxxxxxxx`)
                 let number = q.replace(/[^0-9]/g, '');
@@ -2627,10 +2627,10 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case '?':
             case 'allmenu':
                 let xeonmenuoh = 
-┏`Hello
- 🕷
+`Hello
+ 
 ${pushname}
-┏━━━━━⊱ ━━━━⊱
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ${readmore}
 ▌𝐃𝐑𝐀𝐆𝐎𝐍 𝐒𝐋𝐀𝐘𝐄𝐑 𝐕1●➤
 ◈ Creator : PAIIWANGSAFF
@@ -2642,33 +2642,45 @@ ${readmore}
 ◈ Prefix : ['','!','.','#','&']
 ◈ Runtime : ${runtime(process.uptime())}
 
-❐ © 💀BY 🕷PAIIWANGSAFF🕷 
+❐ ©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
 ${readmore}
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+ 
  ┏━━━━━ 𝐁𝐔𝐆 𝐀𝐍𝐃𝐑𝐎𝐈𝐃 ━━━━━━
   𝐀𝐧𝐝𝐫𝐨𝐢𝐝-𝐏𝐚𝐢𝐢𝐰𝐚𝐧𝐠𝐜𝐫𝐚𝐬𝐡
   𝐀𝐧𝐝𝐫𝐨𝐢𝐝2-𝐏𝐚𝐢𝐢𝐰𝐚𝐧𝐠𝐜𝐫𝐚𝐬𝐡
   systemuicrash
   xsysui
-  𝐏𝐚𝐢𝐧𝐞𝐫
-  💀paiiwangsaff
-  1💀
+  Paiiwangsaff-kill
+  🐉paiiwangsaff
+  1🐉
   𝐃𝐨𝐮𝐛𝐥𝐞𝐩𝐚𝐢𝐢
   𝐓𝐫𝐢𝐩𝐩𝐥𝐞𝐩𝐚𝐢𝐢
-┗━━━━━━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+  🐉Samsung
+  Oneclickall
+  🐉waweb
+┗━━━━━━━━━━━━━━━━━━━━━━━━
 
- ┏━━━━━ 𝐁𝐔𝐆  𝐈𝐎𝐒  ━━━━━━━━
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+┏━━━━━ 𝐁𝐔𝐆  𝐈𝐎𝐒  ━━━━━━━━━
  𝐈𝐎𝐒-𝐏𝐚𝐢𝐢𝐰𝐚𝐧𝐠𝐜𝐫𝐚𝐬𝐡
  𝐃𝐞𝐚𝐝𝐩𝐚𝐢𝐢
-┗━━━━━━━━━━━━━━━━━━━━━
-
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+┗━━━━━━━━━━━━━━━━━━━━━━━━
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
  ┏━━━━━ 𝐁𝐔𝐆 𝐆𝐑𝐎𝐔𝐏 ━━━━━━━
   xgc
- ┗━━━━━━━━━━━━━━━━━━━━━━
+ ┗━━━━━━━━━━━━━━━━━━━━━━━
+
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
 ┏━━━━━ 𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔 ━━━━━━━
  getsession
   deletesession
@@ -2688,10 +2700,10 @@ ${readmore}
   getcase
   addowner
   delowner
-┗━━━━━━━━━━━━━━━━━
-
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
- ┏━━━━━ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔 ━━━━
+┗━━━━━━━━━━━━━━━━━━━━━━━
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ ┏━━━━━ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔 ━━━━━━
   closetime
   opentime
   kick
@@ -2708,18 +2720,22 @@ ${readmore}
   linkgc
   revoke
   listonline
-┗━━━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+┗━━━━━━━━━━━━━━━━━━━━━━━━
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
 
- ┏━━━━━    𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔 ━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+
+ ┏━━━━━    𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔 ━━━━
   menu
   buypremium
   runtime
   script
   donate
   owner
-┗━━━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+┗━━━━━━━━━━━━━━━━━━━━━━━
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
  ┏━━━━━ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ━━━━━
   sticker
@@ -2736,8 +2752,10 @@ ${readmore}
   toviewonce
   fliptext
   emojimix
-┗━━━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+┗━━━━━━━━━━━━━━━━━━━━━━━
+
+©𝕻𝖆𝖎𝖎𝖜𝖆𝖓𝖌𝖘𝖆𝖋𝖋
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
 
 
  ┏━━━━━ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ ━━━━━
@@ -2762,14 +2780,14 @@ ${readmore}
   listzip
   listapk
   listpdf
-┗━━━━━━━━━━━━━━━━━━
-
- ┏━━ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔 ━━━
+┗━━━━━━━━━━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ ┏━━ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔 ━━━━━━
   play
   ytmp3
   ytmp4
   sound1 - sound161
-  ┗━━━━━━━━━━━━━━━━━━
+  ┗━━━━━━━━━━━━━━━━━━━━━━━
   
   ▬▬▬▬▬𝐏𝐀𝐈𝐈𝐖𝐀𝐍𝐆𝐒𝐀𝐅𝐅 ▬▬▬▬▬▬▬ 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱`
@@ -2780,7 +2798,7 @@ ${readmore}
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/6dacd295241782af5ea75.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2798,7 +2816,7 @@ ${readmore}
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/6dacd295241782af5ea75.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/5a6692324499f1662a1e0.jpg',
                                 sourceUrl: ``,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
